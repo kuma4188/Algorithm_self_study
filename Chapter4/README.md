@@ -25,7 +25,7 @@ N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로�
 [백준 1377번](https://www.acmicpc.net/problem/1377) <br>
 
 ### 문제
-'''
+```c++
 bool changed = false;
 for (int i=1; i<=N+1; i++) {
     changed = false;
@@ -40,7 +40,7 @@ for (int i=1; i<=N+1; i++) {
         break;
     }
 }
-'''
+```
 
 위 소스에서 N은 배열의 크기이고, A는 정렬해야 하는 배열이다. 배열은 A[1]부터 사용한다.<br>
 
